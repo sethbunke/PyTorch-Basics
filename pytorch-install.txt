@@ -1,0 +1,7 @@
+conda create -n pytorch-env python=3.5
+activate keras-api
+conda install pandas matplotlib jupyter notebook scipy scikit-learn
+conda install pytorch torchvision -c pytorch
+
+
+python -m ipykernel install --user --name pytorch-env --display-name "Python (pytorch-env)”
