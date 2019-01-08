@@ -1,5 +1,11 @@
 conda create -n pytorch-env python=3.5
-activate keras-api
+
+#WINDOWS
+conda activate pytorch-env
+
+#MAC OS AND LINUX
+activate pytorch-env
+
 conda install pandas matplotlib jupyter notebook scipy scikit-learn
 conda install pytorch torchvision -c pytorch
 
